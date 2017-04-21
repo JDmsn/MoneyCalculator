@@ -22,7 +22,7 @@ public class Currency {
     public String getSymbol() {
         return symbol;
     }
-
+    
     @Override
     public boolean equals(Object obj) {
         return (obj instanceof Currency) ? ((Currency) obj).name == name : false;
