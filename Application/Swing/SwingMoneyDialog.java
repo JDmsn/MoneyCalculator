@@ -14,7 +14,6 @@ import java.awt.event.KeyListener;
 
 public class SwingMoneyDialog extends JPanel implements MoneyDialog {
 
-
     private SwingCurrencyDialog currencyDialog;
     private JTextField textField;
     private ActionListener onChangeEvent;
